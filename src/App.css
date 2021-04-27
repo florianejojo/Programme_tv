@@ -1,6 +1,73 @@
 /* Other rules */
+* {
+    font-family: "Roboto", sans-serif;
+}
+.logo {
+    text-align: center;
+    height: 50px;
+    padding: 40px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .section {
-    border: pink 2px solid;
-    height: 300px;
+    width: 480px;
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section .left-block {
+    display: flex;
+    align-items: center;
+}
+
+.section .right-block {
+    padding-left: 10px;
+}
+
+.section .time {
+    font-weight: bold;
+    padding-right: 30px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.section img {
+    border-radius: 15px;
+    padding-right: 10px;
+}
+
+.section .title {
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.section .type {
+    margin-bottom: 05px;
+}
+
+.section .info {
+    display: flex;
+}
+
+.section p {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.section .duration {
+    width: 50px;
+    font-weight: bold;
+}
+
+#direct,
+#inedit {
+    color: red;
+    font-weight: bold;
 }

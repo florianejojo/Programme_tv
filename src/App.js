@@ -1,11 +1,12 @@
 import "./App.css";
-import "./logo_m6.jpeg";
+import Logo from "./logo.png";
 
 import Sections from "./components/Sections";
 
 function App() {
     return (
-        <div id="sections">
+        <div className="container">
+            <img src={Logo} alt="Logo" className="logo" />
             <Sections />
         </div>
     );
